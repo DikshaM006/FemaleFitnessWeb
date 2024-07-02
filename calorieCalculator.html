@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="style13.css">
+</head>
+<body>
+    <div class="calc-outer-wrap">
+        <div id="form-error" style="display:none;"></div>
+        <form class="calc-form" id="calc-form">
+            <h2>Calorie Counter</h2>
+            <div class="form-fields">
+                <div class="field-outer">
+                    <label for="age" class="top-label">Age:</label>
+                    <input type="text" name="age" id="age" inputmode="numeric" pattern="[0-9]*">
+                </div><!--  /.field-outer -->
+
+                <div class="field-outer">
+                    <label for="gender" class="top-label">Gender:</label>
+                    <select name="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </div><!--  /.field-outer -->
+
+                <div class="field-outer">
+                    <label for="height" class="top-label">Height (inches):</label>
+                    <input type="text" name="height" id="height" inputmode="numeric" pattern="[0-9]*">
+                </div><!--  /.field-outer -->
+
+                <div class="field-outer">
+                    <label for="weight" class="top-label">Your weight (kg):</label>
+                    <input type="text" name="weight" id="weight" inputmode="numeric" pattern="[0-9]*">
+                </div><!--  /.field-outer -->
+
+                <div class="btn-wrap field-outer">
+                    <button class="form-submit">Calculate</button>
+                </div>
+                <div id="results" style="display:none;"></div> <!-- Results container -->
+            </div><!--  /.form fields -->
+        </form>
+    </div><!--  /.calc-outer-wrap -->
+    <script src="script3.js"></script>
+</body>
+</html>

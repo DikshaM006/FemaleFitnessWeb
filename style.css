@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink; /* Optional background color */
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+
+.title {
+    font-size: 48px;
+    font-family: cursive, sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease; /* Apply the transition to the color property */
+}
+
+.title-element {
+    width: 0;
+    height: 20px;
+    background-color: #0078d4; /* Background color for the transition element */
+    transition: width 2s ease-in-out 0.2s; /* Apply the transition to width */
+}
+
+.title:hover {
+    color: blue; /* Change the color on hover to blue */
+}
+
+.title:hover .title-element {
+    width: 100px; /* Change the width on hover */
+}
+
+.link {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    color: #333;
+}
+
+.link:hover {
+    color: #0078d4; /* Change link color on hover (optional) */
+}

@@ -1,0 +1,30 @@
+*{
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+div{
+    text-align: center;
+}
+.first{
+    border: 2px solid black;
+}
+.second{
+    border: 2px solid black;
+}
+#one{
+    color: blue;
+    width: 150px;
+}
+#two{
+    background-color: blue;
+    color: white;
+    height: 21.33px;
+    width: 170px;
+}

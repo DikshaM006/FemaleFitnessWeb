@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 0;
+    margin-left: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPVNHm3Ye9yhzVEC2FLaZ11rYFV3ajhzFKz-Eur80qQjcroKw227oJkdwKqcVSSdbJ0w&usqp=CAU");
+    background-size: cover;
+    height: 555px;
+    width: 1260px;
+    position: fixed;
+}
+
+h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.box img {
+    height: 200px; /* Set the desired height for the images */
+    width: 90%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire box */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+}
+
+.box p {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.slogan {
+    display: flex;
+    height: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    margin-top: 72px;
+}

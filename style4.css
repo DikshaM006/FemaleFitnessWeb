@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(204, 157, 141);
+}
+h1{
+   text-align: center;
+}
+.b1,.b2,.b3{
+    border: 2px groove white;
+    background-color: white;
+}
+.one{
+    display: flex;
+    flex-direction: row; 
+    align-items: normal;
+    justify-content: space-evenly;
+    /* background-color: rgb(247, 181, 181) */
+}
+.one img{
+    margin: 5px; 
+    width: 270px; /* Set a fixed width for the images */
+    height: 230px;
+}
+.one div{
+    text-align: center;
+    margin: 10px;
+}
+.two{
+    display: flex;
+    flex-direction: row; 
+    align-items: normal;
+    justify-content: space-evenly;
+    /* background-color: rgb(247, 181, 181) */
+}
+
+.two img{
+    margin: 5px; 
+    width: 270px; /* Set a fixed width for the images */
+    height: 230px;
+}
+.two div{
+    text-align: center;
+    margin: 10px;
+}
+.three{
+    display: flex;
+    flex-direction: row; 
+    align-items: normal;
+    justify-content: space-evenly;
+    /* background-color: rgb(247, 181, 181) */
+}
+
+.three img{
+    margin: 5px; 
+    width: 270px; /* Set a fixed width for the images */
+    height: 230px;
+}
+.three div{
+    text-align: center;
+    margin: 10px;
+}
+
+  

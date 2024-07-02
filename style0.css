@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.navbar {
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 50px;
+    /* padding-top: 20px; */
+    align-items: center;
+    justify-content: space-evenly;
+    border: 5px solid black;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1sZY7bfF0BCvRKRU3Kr4MErF5uCkKAayLZw&usqp=CAU");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: cursive, sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.title-element {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.title-element span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    animation: reveal 5s forwards;
+}
+
+.title:hover .title-element span {
+    animation: reveal 5s forwards;
+}
+
+@keyframes reveal {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-right: 20px; /* Adjust as needed */
+}
+
+img {
+    position: fixed;
+    padding-left: 50%;
+    height: 505px;
+    width: 831px;
+}
+
+.box {
+    position: fixed;
+    background-color: rgb(202, 149, 132);
+    height: 505px;
+    width: 1662px;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 150px;
+    padding-left: 180px;
+}
+
+h4 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 180px;
+}
+
+.join-by {
+    color: black;
+    margin: 0; /* Add this to remove any margin */
+    padding: 0; /* Add this to remove any padding */
+}
+
+.border {
+    border: 2px solid transparent;
+    /* padding-right: 150px; */
+    
+}
+
+.border:hover {
+    border: 2px solid black;
+}
